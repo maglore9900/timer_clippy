@@ -1,0 +1,3 @@
+tk
+python-environ
+pillow
