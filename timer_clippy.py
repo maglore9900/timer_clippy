@@ -9,7 +9,7 @@ class Clippy():
         self.env = env
         self.ttl = int(env("AUTOCLOSE_AFTER"))*1000
         self.close_status = None
-        with open(env("DIALOG_FILE"), "r") as f:
+        with open(env("DIALOG_FILE"), "r", encoding="utf-8") as f:
             self.dialog = f.read()
 
     def close(self, root):
