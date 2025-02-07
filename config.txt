@@ -1,5 +1,6 @@
 #wait time is in seconds, so 3600 is 1 hour
-WAIT_TIME = "3600"
+#WAIT_TIME = "3600"
+WAIT_TIME = "1800"
 #the program will exit after NO_RUN_AFTER, if this is set to True
 NO_RUN_LIMIT = True
 #this time is in military time/24 hour clock. this value is when the program will exit.
